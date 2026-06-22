@@ -1,0 +1,9 @@
+[project]
+name = "binance-mcp"
+version = "0.1.0"
+description = "Servidor MCP para conectar Claude con la REST API de Binance Spot"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.2.0,<2",
+    "httpx>=0.27",
+]
